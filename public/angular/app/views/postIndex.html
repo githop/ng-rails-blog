@@ -1,0 +1,9 @@
+<h1>Index Page for all the posts</h1>
+
+<div ng-controller="PostsCtrl">
+	<div ng-repeat="post in posts">
+		<h3>{{ post.title }}</h3>
+		<p>{{ post.contents }}</p>
+		<hr>
+	</div>
+</div>
