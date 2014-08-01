@@ -1,0 +1,12 @@
+<div ng-controller="NewPostCtrl">
+	<h3> Todo: learn ng forms </h3>
+	<form>
+		<p>
+			<input type="text" ng-model="post.title">
+		</p>
+		<p>
+			<textarea row="5" col="4" ng-model="post.contents"></textarea><br/>
+		</p>
+		<button ng-click="createPost(post)">Submit</button>
+	</form>
+</div>

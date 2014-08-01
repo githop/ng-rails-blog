@@ -3,6 +3,17 @@ class PostsController < ApplicationController
 		render json: Post.all 
 	end
 
+	def show
+		render json: Post.find(params[:id])
+	end
+
+	def create
+		post = Post.new
+		post.title = params[:title]
+		post.contents = params[:contents]
+		post.save 
+	end
+
 	private
 	def post_params
 		params.require(:post).permit(:title, :contents)

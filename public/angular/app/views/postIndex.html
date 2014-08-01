@@ -2,8 +2,8 @@
 
 <div ng-controller="PostsCtrl">
 	<div ng-repeat="post in posts">
-		<h3>{{ post.title }}</h3>
-		<p>{{ post.contents }}</p>
 		<hr>
+		<h3><a href="" ng-click="viewPost(post)">{{ post.title }}</a></h3>
+		<p>{{ post.contents }}</p>
 	</div>
 </div>
