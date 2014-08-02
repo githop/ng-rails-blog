@@ -8,8 +8,8 @@
  * Controller of the angularApp
  */
  angular.module('angularApp')
- .controller('PostCtrl', ['$scope', '$routeParams', 'postFactory', 
- 	function ($scope, $routeParams, postFactory) {
+ .controller('PostCtrl', ['$scope', '$routeParams', '$location', 'postFactory', 
+ 	function ($scope, $routeParams, $location, postFactory) {
  		$scope.post = {title: 'loading..', contents: ''};
 
  		function getPost(id) {
@@ -20,5 +20,12 @@
  		}
 
  		getPost($routeParams.id);
+
+		$scope.deletePost = function(post) {
+      postFactory.postDelete(post.id)
+        .success(function() {
+        	$location.url('/');
+        });
+    }; 		
 
  	}]);

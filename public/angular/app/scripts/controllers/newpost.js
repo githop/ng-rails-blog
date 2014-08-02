@@ -13,14 +13,20 @@
 
  		$scope.post = {title: '', contents: ''};
 
+ 		
+
  		$scope.createPost = function(post) {
 
  			postFactory.newPost(post)
  			.success(function() {
+
  				$scope.post = post; 
-				$location.url('/');				 				
+				$location.url('/'); 
+								 				
  			});
  		};
+
+
 
 
  	}]);

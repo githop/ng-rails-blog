@@ -25,5 +25,9 @@ angular.module('angularApp')
   			return $http.post(baseUrl, post);
   		};
 
+      postFactory.postDelete = function(id){
+        return $http.delete(baseUrl + '/' + id); 
+      };
+
   		return postFactory;
   }]);

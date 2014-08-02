@@ -23,4 +23,9 @@ angular.module('angularApp')
   $location.url('/posts/' + post.id);
  }; 
   
+ $scope.newPost = function() {
+  $location.url('/posts/new');
+ };
+
+
 }]);

@@ -14,8 +14,8 @@
   'ngRoute',
   'ngTouch'
   ])
- .config(['$routeProvider',
-  function ($routeProvider) {
+ .config(['$routeProvider', 
+  function ($routeProvider ) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/postIndex.html',
@@ -30,4 +30,5 @@
         controller: 'PostCtrl'
       })
       .otherwise('/'); 
+
   }]);
