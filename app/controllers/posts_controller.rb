@@ -14,6 +14,12 @@ class PostsController < ApplicationController
 		post.save 
 	end
 
+	def update
+		post = Post.find(params[:id])
+		post.update_attributes(title: params[:title], contents: params[:contents])
+		post.save
+	end
+
 	def destroy
 		post = Post.find(params[:id])
 		post.destroy

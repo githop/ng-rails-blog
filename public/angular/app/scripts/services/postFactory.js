@@ -8,7 +8,7 @@
  * Service in the angularApp.
  */
 angular.module('angularApp')
-  .service('postFactory', ['$http', 
+  .service('postFactory', ['$http',  
   	function($http) {
   		var baseUrl = 'http://localhost:3000/posts';
   		var postFactory = {};
@@ -27,6 +27,10 @@ angular.module('angularApp')
 
       postFactory.postDelete = function(id){
         return $http.delete(baseUrl + '/' + id); 
+      };
+
+      postFactory.postEdit = function(post){
+        return $http.put(baseUrl + '/' + post.id, post);
       };
 
   		return postFactory;

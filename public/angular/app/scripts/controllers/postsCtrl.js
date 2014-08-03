@@ -3,9 +3,6 @@
 angular.module('angularApp')
 .controller('PostsCtrl', ['$scope', '$location', 'postFactory', 
  function ($scope, $location,  postFactory) {
-  $scope.greeting = 'My Blog'; 
-
-  $scope.posts = {title: 'hello', contents: 'contents'}; 
 
   function getPosts () {
     postFactory.allPosts()
@@ -13,7 +10,7 @@ angular.module('angularApp')
       $scope.posts = data;
     })
     .error(function(error) {
-      $scope.status = 'Whoops ' + error.message; 
+      console.log('Whoops ' + error.message); 
     });
   }
 

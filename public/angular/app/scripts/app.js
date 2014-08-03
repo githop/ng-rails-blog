@@ -12,7 +12,8 @@
  .module('angularApp', [
   'ngResource',
   'ngRoute',
-  'ngTouch'
+  'ngTouch',
+  'ngSanitize'
   ])
  .config(['$routeProvider', 
   function ($routeProvider ) {
@@ -24,6 +25,10 @@
       .when('/posts/new', {
         templateUrl: 'views/postNew.html',
         controller: 'NewPostCtrl'
+      })
+      .when('/posts/:id/edit', {
+        templateUrl: '/views/postEdit.html',
+        controller: 'EditPostCtrl'
       })
       .when('/posts/:id', {
         templateUrl: 'views/postShow.html',

@@ -1,10 +1,7 @@
 <div ng-controller="PostCtrl">
-	<h1> The post show page </h1>
-
-	<h3>{{ post.title }}</h3>
-
-	<p>{{ post.contents }} </p>
+	<h1>{{ post.title }}</h1>
+	<p ng-bind-html="post.contents"></p>
 
 	<button class="btn btn-default" ng-click="deletePost(post)">Delete Post</button>
-
+	<button class="btn btn-success" ng-click="editPost()">Edit Post</button>
 </div>

@@ -15,17 +15,27 @@
  		function getPost(id) {
  			postFactory.postGet(id)
  			.success(function(data){
- 				$scope.post = data; 
+ 				$scope.post = data;
+ 			})
+ 			.error(function(error){
+ 				console.log('error message: ' + error.message);
  			});
  		}
 
  		getPost($routeParams.id);
 
-		$scope.deletePost = function(post) {
+    $scope.deletePost = function(post) {
       postFactory.postDelete(post.id)
-        .success(function() {
-        	$location.url('/');
-        });
+      .success(function() {
+       $location.url('/');
+     })
+      .error(function(error){
+       console.log('error message: ' + error.message); 
+     });
     }; 		
 
- 	}]);
+    $scope.editPost = function(){
+      $location.url('/posts/' + $routeParams.id + '/edit');
+    };    
+
+  }]);
