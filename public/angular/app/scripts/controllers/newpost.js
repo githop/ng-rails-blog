@@ -13,8 +13,6 @@
 
  		$scope.post = {title: '', contents: ''};
 
- 		
-
  		$scope.createPost = function(post) {
 
  			postFactory.newPost(post)
