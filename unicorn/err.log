@@ -1,0 +1,177 @@
+I, [2014-08-03T20:20:38.312243 #26621]  INFO -- : listening on addr=/tmp/unicorn.todo.socket fd=9
+I, [2014-08-03T20:20:38.312655 #26621]  INFO -- : worker=0 spawning...
+I, [2014-08-03T20:20:38.314518 #26621]  INFO -- : worker=1 spawning...
+I, [2014-08-03T20:20:38.316264 #26648]  INFO -- : worker=0 spawned pid=26648
+I, [2014-08-03T20:20:38.316611 #26621]  INFO -- : master process ready
+I, [2014-08-03T20:20:38.316914 #26648]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:20:38.318668 #26651]  INFO -- : worker=1 spawned pid=26651
+I, [2014-08-03T20:20:38.319076 #26651]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:20:41.591825 #26651]  INFO -- : worker=1 ready
+I, [2014-08-03T20:20:41.602322 #26648]  INFO -- : worker=0 ready
+I, [2014-08-03T20:21:41.548336 #26621]  INFO -- : reaped #<Process::Status: pid 26648 exit 0> worker=0
+I, [2014-08-03T20:21:41.548758 #26621]  INFO -- : reaped #<Process::Status: pid 26651 exit 0> worker=1
+I, [2014-08-03T20:21:41.549091 #26621]  INFO -- : master complete
+I, [2014-08-03T20:22:29.823631 #26688]  INFO -- : unlinking existing socket=/tmp/unicorn.todo.socket
+I, [2014-08-03T20:22:29.824448 #26688]  INFO -- : listening on addr=/tmp/unicorn.todo.socket fd=10
+I, [2014-08-03T20:22:29.824889 #26688]  INFO -- : worker=0 spawning...
+I, [2014-08-03T20:22:29.827197 #26688]  INFO -- : worker=1 spawning...
+I, [2014-08-03T20:22:29.828858 #26691]  INFO -- : worker=0 spawned pid=26691
+I, [2014-08-03T20:22:29.829279 #26691]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:22:29.836363 #26688]  INFO -- : master process ready
+I, [2014-08-03T20:22:29.839840 #26694]  INFO -- : worker=1 spawned pid=26694
+I, [2014-08-03T20:22:29.840269 #26694]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:22:33.132995 #26691]  INFO -- : worker=0 ready
+I, [2014-08-03T20:22:33.170289 #26694]  INFO -- : worker=1 ready
+I, [2014-08-03T20:25:32.629169 #26739]  INFO -- : unlinking existing socket=/tmp/unicorn.todo.socket
+I, [2014-08-03T20:25:32.629646 #26739]  INFO -- : listening on addr=/tmp/unicorn.todo.socket fd=9
+I, [2014-08-03T20:25:32.629938 #26739]  INFO -- : worker=0 spawning...
+I, [2014-08-03T20:25:32.631915 #26739]  INFO -- : worker=1 spawning...
+I, [2014-08-03T20:25:32.633397 #26766]  INFO -- : worker=0 spawned pid=26766
+I, [2014-08-03T20:25:32.634045 #26766]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:25:32.633950 #26739]  INFO -- : master process ready
+I, [2014-08-03T20:25:32.635844 #26769]  INFO -- : worker=1 spawned pid=26769
+I, [2014-08-03T20:25:32.636227 #26769]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:25:35.892704 #26769]  INFO -- : worker=1 ready
+I, [2014-08-03T20:25:35.949194 #26766]  INFO -- : worker=0 ready
+I, [2014-08-03T20:26:01.766103 #26739]  INFO -- : reaped #<Process::Status: pid 26766 exit 0> worker=0
+I, [2014-08-03T20:26:01.766590 #26739]  INFO -- : reaped #<Process::Status: pid 26769 exit 0> worker=1
+I, [2014-08-03T20:26:01.766929 #26739]  INFO -- : master complete
+I, [2014-08-03T20:26:13.173201 #26803]  INFO -- : unlinking existing socket=/tmp/unicorn.todo.socket
+I, [2014-08-03T20:26:13.174017 #26803]  INFO -- : listening on addr=/tmp/unicorn.todo.socket fd=10
+I, [2014-08-03T20:26:13.174591 #26803]  INFO -- : worker=0 spawning...
+I, [2014-08-03T20:26:13.176683 #26803]  INFO -- : worker=1 spawning...
+I, [2014-08-03T20:26:13.179058 #26803]  INFO -- : master process ready
+I, [2014-08-03T20:26:13.183850 #26808]  INFO -- : worker=1 spawned pid=26808
+I, [2014-08-03T20:26:13.184301 #26808]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:26:13.188187 #26806]  INFO -- : worker=0 spawned pid=26806
+I, [2014-08-03T20:26:13.188611 #26806]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:26:16.492558 #26806]  INFO -- : worker=0 ready
+I, [2014-08-03T20:26:16.497880 #26808]  INFO -- : worker=1 ready
+I, [2014-08-03T20:54:52.802689 #1173]  INFO -- : listening on addr=/tmp/unicorn.todo.socket fd=9
+I, [2014-08-03T20:54:52.803363 #1173]  INFO -- : worker=0 spawning...
+I, [2014-08-03T20:54:52.805317 #1173]  INFO -- : worker=1 spawning...
+I, [2014-08-03T20:54:52.806855 #1201]  INFO -- : worker=0 spawned pid=1201
+I, [2014-08-03T20:54:52.807206 #1173]  INFO -- : master process ready
+I, [2014-08-03T20:54:52.807546 #1201]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:54:52.809147 #1204]  INFO -- : worker=1 spawned pid=1204
+I, [2014-08-03T20:54:52.809531 #1204]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:54:56.456127 #1201]  INFO -- : worker=0 ready
+I, [2014-08-03T20:54:56.456325 #1204]  INFO -- : worker=1 ready
+I, [2014-08-03T20:55:11.394440 #1173]  INFO -- : reaped #<Process::Status: pid 1201 exit 0> worker=0
+I, [2014-08-03T20:55:11.394850 #1173]  INFO -- : reaped #<Process::Status: pid 1204 exit 0> worker=1
+I, [2014-08-03T20:55:11.395188 #1173]  INFO -- : master complete
+I, [2014-08-03T20:56:58.286769 #1298]  INFO -- : unlinking existing socket=/tmp/unicorn.todo.socket
+I, [2014-08-03T20:56:58.287550 #1298]  INFO -- : listening on addr=/tmp/unicorn.todo.socket fd=10
+I, [2014-08-03T20:56:58.287968 #1298]  INFO -- : worker=0 spawning...
+I, [2014-08-03T20:56:58.290187 #1298]  INFO -- : worker=1 spawning...
+I, [2014-08-03T20:56:58.291940 #1301]  INFO -- : worker=0 spawned pid=1301
+I, [2014-08-03T20:56:58.292374 #1301]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:56:58.298615 #1298]  INFO -- : master process ready
+I, [2014-08-03T20:56:58.302211 #1304]  INFO -- : worker=1 spawned pid=1304
+I, [2014-08-03T20:56:58.302655 #1304]  INFO -- : Refreshing Gem list
+I, [2014-08-03T20:57:01.592616 #1301]  INFO -- : worker=0 ready
+I, [2014-08-03T20:57:01.606871 #1304]  INFO -- : worker=1 ready
+F, [2014-08-05T09:07:57.069499 #2072] FATAL -- : error adding listener addr=/tmp/sockets/ng-rails-blog/unicorn.sock
+/home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `initialize': No such file or directory - connect(2) for "/tmp/sockets/ng-rails-blog/unicorn.sock" (Errno::ENOENT)
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `new'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `bind_listen'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/tom/.rbenv/versions/2.1.2/bin/unicorn:23:in `load'
+	from /home/tom/.rbenv/versions/2.1.2/bin/unicorn:23:in `<main>'
+F, [2014-08-05T09:09:14.085755 #2105] FATAL -- : error adding listener addr=/tmp/sockets/ng-rails-blog/unicorn.sock
+/home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `initialize': No such file or directory - connect(2) for "/tmp/sockets/ng-rails-blog/unicorn.sock" (Errno::ENOENT)
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `new'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `bind_listen'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/tom/.rbenv/versions/2.1.2/bin/unicorn:23:in `load'
+	from /home/tom/.rbenv/versions/2.1.2/bin/unicorn:23:in `<main>'
+F, [2014-08-05T09:09:46.103274 #2166] FATAL -- : error adding listener addr=/tmp/sockets/ng-rails-blog/unicorn.sock
+/home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `initialize': No such file or directory - connect(2) for "/tmp/sockets/ng-rails-blog/unicorn.sock" (Errno::ENOENT)
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `new'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `bind_listen'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /home/tom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/tom/.rbenv/versions/2.1.2/bin/unicorn:23:in `load'
+	from /home/tom/.rbenv/versions/2.1.2/bin/unicorn:23:in `<main>'
+I, [2014-08-05T09:16:21.516739 #2359]  INFO -- : listening on addr=/tmp/unicorn.ng-rails-blog.sock fd=10
+I, [2014-08-05T09:16:21.517431 #2359]  INFO -- : worker=0 spawning...
+I, [2014-08-05T09:16:21.519479 #2359]  INFO -- : worker=1 spawning...
+I, [2014-08-05T09:16:21.521695 #2359]  INFO -- : master process ready
+I, [2014-08-05T09:16:21.525721 #2364]  INFO -- : worker=1 spawned pid=2364
+I, [2014-08-05T09:16:21.526155 #2364]  INFO -- : Refreshing Gem list
+I, [2014-08-05T09:16:21.533950 #2362]  INFO -- : worker=0 spawned pid=2362
+I, [2014-08-05T09:16:21.534332 #2362]  INFO -- : Refreshing Gem list
+I, [2014-08-05T09:16:25.226028 #2364]  INFO -- : worker=1 ready
+I, [2014-08-05T09:16:25.232136 #2362]  INFO -- : worker=0 ready
+I, [2014-08-05T09:25:21.160545 #2548]  INFO -- : unlinking existing socket=/tmp/unicorn.ng-rails-blog.sock
+I, [2014-08-05T09:25:21.161386 #2548]  INFO -- : listening on addr=/tmp/unicorn.ng-rails-blog.sock fd=10
+I, [2014-08-05T09:25:21.161838 #2548]  INFO -- : worker=0 spawning...
+I, [2014-08-05T09:25:21.164094 #2548]  INFO -- : worker=1 spawning...
+I, [2014-08-05T09:25:21.165816 #2551]  INFO -- : worker=0 spawned pid=2551
+I, [2014-08-05T09:25:21.166232 #2551]  INFO -- : Refreshing Gem list
+I, [2014-08-05T09:25:21.174263 #2548]  INFO -- : master process ready
+I, [2014-08-05T09:25:21.177735 #2554]  INFO -- : worker=1 spawned pid=2554
+I, [2014-08-05T09:25:21.178159 #2554]  INFO -- : Refreshing Gem list
+I, [2014-08-05T09:25:24.428016 #2551]  INFO -- : worker=0 ready
+I, [2014-08-05T09:25:24.497032 #2554]  INFO -- : worker=1 ready
+I, [2014-08-05T09:35:51.458343 #2800]  INFO -- : unlinking existing socket=/tmp/unicorn.ng-rails-blog.sock
+I, [2014-08-05T09:35:51.458813 #2800]  INFO -- : listening on addr=/tmp/unicorn.ng-rails-blog.sock fd=9
+I, [2014-08-05T09:35:51.459106 #2800]  INFO -- : worker=0 spawning...
+I, [2014-08-05T09:35:51.461088 #2800]  INFO -- : worker=1 spawning...
+I, [2014-08-05T09:35:51.462548 #2827]  INFO -- : worker=0 spawned pid=2827
+I, [2014-08-05T09:35:51.463184 #2827]  INFO -- : Refreshing Gem list
+I, [2014-08-05T09:35:51.466052 #2800]  INFO -- : master process ready
+I, [2014-08-05T09:35:51.467851 #2830]  INFO -- : worker=1 spawned pid=2830
+I, [2014-08-05T09:35:51.468403 #2830]  INFO -- : Refreshing Gem list
+I, [2014-08-05T09:35:54.712104 #2830]  INFO -- : worker=1 ready
+I, [2014-08-05T09:35:54.723618 #2827]  INFO -- : worker=0 ready
+I, [2014-08-05T09:36:19.595563 #2800]  INFO -- : reaped #<Process::Status: pid 2827 exit 0> worker=0
+I, [2014-08-05T09:36:19.595948 #2800]  INFO -- : reaped #<Process::Status: pid 2830 exit 0> worker=1
+I, [2014-08-05T09:36:19.596540 #2800]  INFO -- : master complete
+I, [2014-08-05T09:36:25.757336 #2865]  INFO -- : unlinking existing socket=/tmp/unicorn.ng-rails-blog.sock
+I, [2014-08-05T09:36:25.758127 #2865]  INFO -- : listening on addr=/tmp/unicorn.ng-rails-blog.sock fd=10
+I, [2014-08-05T09:36:25.758551 #2865]  INFO -- : worker=0 spawning...
+I, [2014-08-05T09:36:25.760801 #2865]  INFO -- : worker=1 spawning...
+I, [2014-08-05T09:36:25.762375 #2868]  INFO -- : worker=0 spawned pid=2868
+I, [2014-08-05T09:36:25.762785 #2868]  INFO -- : Refreshing Gem list
+I, [2014-08-05T09:36:25.770353 #2865]  INFO -- : master process ready
+I, [2014-08-05T09:36:25.808582 #2871]  INFO -- : worker=1 spawned pid=2871
+I, [2014-08-05T09:36:25.808983 #2871]  INFO -- : Refreshing Gem list
+I, [2014-08-05T09:36:29.023531 #2868]  INFO -- : worker=0 ready
+I, [2014-08-05T09:36:29.083291 #2871]  INFO -- : worker=1 ready
+I, [2014-08-05T09:47:06.272122 #3152]  INFO -- : unlinking existing socket=/tmp/unicorn.ng-rails-blog.sock
+I, [2014-08-05T09:47:06.272993 #3152]  INFO -- : listening on addr=/tmp/unicorn.ng-rails-blog.sock fd=10
+I, [2014-08-05T09:47:06.273441 #3152]  INFO -- : worker=0 spawning...
+I, [2014-08-05T09:47:06.275600 #3152]  INFO -- : worker=1 spawning...
+I, [2014-08-05T09:47:06.277921 #3152]  INFO -- : master process ready
+I, [2014-08-05T09:47:06.281720 #3157]  INFO -- : worker=1 spawned pid=3157
+I, [2014-08-05T09:47:06.282160 #3157]  INFO -- : Refreshing Gem list
+I, [2014-08-05T09:47:06.290027 #3155]  INFO -- : worker=0 spawned pid=3155
+I, [2014-08-05T09:47:06.290422 #3155]  INFO -- : Refreshing Gem list
+I, [2014-08-05T09:47:09.572350 #3155]  INFO -- : worker=0 ready
+I, [2014-08-05T09:47:09.584582 #3157]  INFO -- : worker=1 ready
+I, [2014-08-05T11:54:04.236963 #4408]  INFO -- : unlinking existing socket=/tmp/unicorn.ng-rails-blog.sock
+I, [2014-08-05T11:54:04.237728 #4408]  INFO -- : listening on addr=/tmp/unicorn.ng-rails-blog.sock fd=10
+I, [2014-08-05T11:54:04.238186 #4408]  INFO -- : worker=0 spawning...
+I, [2014-08-05T11:54:04.240592 #4408]  INFO -- : worker=1 spawning...
+I, [2014-08-05T11:54:04.243014 #4408]  INFO -- : master process ready
+I, [2014-08-05T11:54:04.245705 #4413]  INFO -- : worker=1 spawned pid=4413
+I, [2014-08-05T11:54:04.246130 #4413]  INFO -- : Refreshing Gem list
+I, [2014-08-05T11:54:04.253985 #4411]  INFO -- : worker=0 spawned pid=4411
+I, [2014-08-05T11:54:04.254362 #4411]  INFO -- : Refreshing Gem list
+I, [2014-08-05T11:54:07.499298 #4411]  INFO -- : worker=0 ready
+I, [2014-08-05T11:54:07.555130 #4413]  INFO -- : worker=1 ready
