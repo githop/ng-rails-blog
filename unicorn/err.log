@@ -175,3 +175,36 @@ I, [2014-08-05T11:54:04.253985 #4411]  INFO -- : worker=0 spawned pid=4411
 I, [2014-08-05T11:54:04.254362 #4411]  INFO -- : Refreshing Gem list
 I, [2014-08-05T11:54:07.499298 #4411]  INFO -- : worker=0 ready
 I, [2014-08-05T11:54:07.555130 #4413]  INFO -- : worker=1 ready
+I, [2014-08-07T14:35:20.723467 #27935]  INFO -- : unlinking existing socket=/tmp/unicorn.ng-rails-blog.sock
+I, [2014-08-07T14:35:20.724440 #27935]  INFO -- : listening on addr=/tmp/unicorn.ng-rails-blog.sock fd=10
+I, [2014-08-07T14:35:20.724986 #27935]  INFO -- : worker=0 spawning...
+I, [2014-08-07T14:35:20.727109 #27935]  INFO -- : worker=1 spawning...
+I, [2014-08-07T14:35:20.728896 #27938]  INFO -- : worker=0 spawned pid=27938
+I, [2014-08-07T14:35:20.729331 #27938]  INFO -- : Refreshing Gem list
+I, [2014-08-07T14:35:20.734251 #27935]  INFO -- : master process ready
+I, [2014-08-07T14:35:20.741660 #27941]  INFO -- : worker=1 spawned pid=27941
+I, [2014-08-07T14:35:20.742125 #27941]  INFO -- : Refreshing Gem list
+I, [2014-08-07T14:35:24.017175 #27938]  INFO -- : worker=0 ready
+I, [2014-08-07T14:35:24.019648 #27941]  INFO -- : worker=1 ready
+I, [2014-08-07T14:44:55.608616 #28273]  INFO -- : unlinking existing socket=/tmp/unicorn.ng-rails-blog.sock
+I, [2014-08-07T14:44:55.609412 #28273]  INFO -- : listening on addr=/tmp/unicorn.ng-rails-blog.sock fd=10
+I, [2014-08-07T14:44:55.609923 #28273]  INFO -- : worker=0 spawning...
+I, [2014-08-07T14:44:55.612394 #28273]  INFO -- : worker=1 spawning...
+I, [2014-08-07T14:44:55.614795 #28273]  INFO -- : master process ready
+I, [2014-08-07T14:44:55.617703 #28278]  INFO -- : worker=1 spawned pid=28278
+I, [2014-08-07T14:44:55.618157 #28278]  INFO -- : Refreshing Gem list
+I, [2014-08-07T14:44:55.625971 #28276]  INFO -- : worker=0 spawned pid=28276
+I, [2014-08-07T14:44:55.626355 #28276]  INFO -- : Refreshing Gem list
+I, [2014-08-07T14:44:58.911841 #28276]  INFO -- : worker=0 ready
+I, [2014-08-07T14:44:58.946768 #28278]  INFO -- : worker=1 ready
+I, [2014-08-07T14:56:07.598726 #28400]  INFO -- : unlinking existing socket=/tmp/unicorn.ng-rails-blog.sock
+I, [2014-08-07T14:56:07.599522 #28400]  INFO -- : listening on addr=/tmp/unicorn.ng-rails-blog.sock fd=10
+I, [2014-08-07T14:56:07.599985 #28400]  INFO -- : worker=0 spawning...
+I, [2014-08-07T14:56:07.602393 #28400]  INFO -- : worker=1 spawning...
+I, [2014-08-07T14:56:07.606386 #28400]  INFO -- : master process ready
+I, [2014-08-07T14:56:07.613738 #28406]  INFO -- : worker=1 spawned pid=28406
+I, [2014-08-07T14:56:07.614173 #28406]  INFO -- : Refreshing Gem list
+I, [2014-08-07T14:56:07.604093 #28403]  INFO -- : worker=0 spawned pid=28403
+I, [2014-08-07T14:56:07.621115 #28403]  INFO -- : Refreshing Gem list
+I, [2014-08-07T14:56:10.901782 #28403]  INFO -- : worker=0 ready
+I, [2014-08-07T14:56:10.934838 #28406]  INFO -- : worker=1 ready
