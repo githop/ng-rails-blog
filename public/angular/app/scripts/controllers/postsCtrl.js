@@ -3,6 +3,7 @@
 angular.module('angularApp')
 .controller('PostsCtrl', ['$scope', '$location', 'postFactory', 
  function ($scope, $location,  postFactory) {
+  $scope.post = {title: '', contents: '<img src="../images/ajax-loader.gif" />'};
 
   function getPosts () {
     postFactory.allPosts()
@@ -14,15 +15,15 @@ angular.module('angularApp')
     });
   }
 
- getPosts();
+  getPosts();
 
- $scope.viewPost = function(post) {
-  $location.url('/posts/' + post.id);
- }; 
+  $scope.viewPost = function(post) {
+    $location.url('/posts/' + post.id);
+  }; 
   
- $scope.newPost = function() {
-  $location.url('/posts/new');
- };
+  $scope.newPost = function() {
+    $location.url('/posts/new');
+  };
 
 
 }]);

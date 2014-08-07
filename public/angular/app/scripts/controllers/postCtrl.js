@@ -10,7 +10,7 @@
  angular.module('angularApp')
  .controller('PostCtrl', ['$scope', '$routeParams', '$location', 'postFactory', 
  	function ($scope, $routeParams, $location, postFactory) {
- 		$scope.post = {title: 'loading..', contents: ''};
+ 		$scope.post = {title: '', contents: '<img src="../images/ajax-loader.gif" />'};
 
  		function getPost(id) {
  			postFactory.postGet(id)

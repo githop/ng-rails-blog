@@ -10,7 +10,8 @@
 angular.module('angularApp')
   .controller('EditPostCtrl', ['$scope', '$routeParams', '$location', 'postFactory',
   	function ($scope, $routeParams, $location, postFactory) {
-  		$scope.post = {title: 'loading...', contents: ''};
+  		
+ 		$scope.post = {title: '', contents: '<img src="../images/ajax-loader.gif" />'};
 
 			function prepEdit(id) {
 				postFactory.postGet(id)
