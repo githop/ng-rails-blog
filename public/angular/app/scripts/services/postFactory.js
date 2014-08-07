@@ -10,7 +10,7 @@
 angular.module('angularApp')
   .service('postFactory', ['$http',  
   	function($http) {
-  		var baseUrl = 'http://localhost:3000/posts';
+  		var baseUrl = '/posts';
   		var postFactory = {};
 
   		postFactory.allPosts = function() {
